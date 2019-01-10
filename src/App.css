@@ -1,0 +1,61 @@
+.Menu {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  background-color: navy;
+  color: white;
+  display: flex;
+  padding: 15px;
+  justify-content: flex-end;
+}
+
+.Menu-Item {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.Menu-Item + .Menu-Item {
+  margin-left: 10px;
+}
+
+.Container {
+  display: flex;
+}
+
+.Project-List {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.Project-Item {
+  font-size: 13px;
+  padding: 1px 10px;
+} 
+
+.Sidebar {
+  background-color: #EAEAEA;
+  width: 25%;
+  height: calc(100vh - 46px);
+  overflow-y: scroll;
+}
+
+.View {
+  width: 75%;
+}
+
+.Home,
+.Code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Code {
+  font-size: 16px;
+}
+
+.Flag {
+  width: 45px;
+}
